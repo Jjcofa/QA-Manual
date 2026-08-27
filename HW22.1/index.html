@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -26,80 +28,81 @@
     <main>
         <section>
             <h2>Проекты / Опыт работы</h2>
-            <article>
-                <h3>Web-Design (2022 — 2023)</h3>
-            </article>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>Web-Design (2022 — 2023)</h3>
+                    <p>Фриланс-проекты по дизайну и разработке для клиентов.</p>
+                </article>
 
-            <article>
-                <h3>Server Development (2021 — 2026)</h3>
-                <p>Полный цикл управления проектом:</p>
-                <ul>
-                    <li>Разработка и кодинг</li>
-                    <li>Деплоймент и поддержка</li>
-                    <li>Координация команды</li>
-                </ul>
-            </article>
+                <article class="card">
+                    <h3>Server Development (2021 — 2026)</h3>
+                    <p>Полный цикл управления проектом:</p>
+                    <ul>
+                        <li>Разработка и кодинг</li>
+                        <li>Деплоймент и поддержка</li>
+                        <li>Координация команды</li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
         <hr>
 
         <section>
             <h2>Образование</h2>
-            <table border="1" cellpadding="5" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>Период</th>
-                        <th>Учебное заведение</th>
-                        <th>Специальность / Курсы</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2024 — Настоящее время</td>
-                        <td>University of Technology, Dnipro UA</td>
-                        <td>International Management</td>
-                    </tr>
-                    <tr>
-                        <td>2022 — 2024</td>
-                        <td>Vistula University, Warsaw PL</td>
-                        <td>Computer Technologies</td>
-                    </tr>
-                    <tr>
-                        <td>2021 — 2025</td>
-                        <td>Hillel IT School, Dnipro UA</td>
-                        <td>C# Basic, Fullstack JS, Web-Design, Front-End Basic</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>University of Technology, Dnipro UA</h3>
+                    <p><strong>Период:</strong> 2024 — Настоящее время</p>
+                    <p><strong>Специальность:</strong> International Management</p>
+                </article>
+
+                <article class="card">
+                    <h3>Vistula University, Warsaw PL</h3>
+                    <p><strong>Период:</strong> 2022 — 2024</p>
+                    <p><strong>Специальность:</strong> Computer Technologies</p>
+                </article>
+
+                <article class="card">
+                    <h3>Hillel IT School, Dnipro UA</h3>
+                    <p><strong>Период:</strong> 2021 — 2025</p>
+                    <p><strong>Специальность:</strong> C# Basic, Fullstack JS, Web-Design, Front-End Basic</p>
+                </article>
+            </div>
         </section>
 
         <hr>
 
         <section id="skills">
             <h2>Навыки</h2>
-            
-            <h3>Technical Skills</h3>
-            <dl>
-                <dt><strong>Programming:</strong></dt>
-                <dd>C#, Java, JavaScript (HTML/CSS)</dd>
-                
-                <dt><strong>Databases:</strong></dt>
-                <dd>MySQL</dd>
-                
-                <dt><strong>Design Tools:</strong></dt>
-                <dd>Figma, Photoshop, Jitter</dd>
-                
-                <dt><strong>DevOps:</strong></dt>
-                <dd>YAML, Server Administration</dd>
-            </dl>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>Technical Skills</h3>
+                    <dl>
+                        <dt><strong>Programming:</strong></dt>
+                        <dd>C#, Java, JavaScript (HTML/CSS)</dd>
+                        
+                        <dt><strong>Databases:</strong></dt>
+                        <dd>MySQL</dd>
+                        
+                        <dt><strong>Design Tools:</strong></dt>
+                        <dd>Figma, Photoshop, Jitter</dd>
+                        
+                        <dt><strong>DevOps:</strong></dt>
+                        <dd>YAML, Server Administration</dd>
+                    </dl>
+                </article>
 
-            <h3>Soft Skills & Языки</h3>
-            <ul>
-                <li><strong>Языки:</strong> Ukrainian & Russian (Native), English (B1), Polish (B1), German (A2)</li>
-                <li>Project Management</li>
-                <li>Fast Self-Learning</li>
-                <li>Negotiating</li>
-            </ul>
+                <article class="card">
+                    <h3>Soft Skills & Языки</h3>
+                    <ul>
+                        <li><strong>Языки:</strong> Ukrainian & Russian (Native), English (B1), Polish (B1), German (A2)</li>
+                        <li>Project Management</li>
+                        <li>Fast Self-Learning</li>
+                        <li>Negotiating</li>
+                    </ul>
+                </article>
+            </div>
         </section>
     </main>
 
